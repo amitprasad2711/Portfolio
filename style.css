@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Source+Code+Pro:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Sans:wght@100&family=Maven+Pro:wght@500;700&family=Source+Code+Pro:ital,wght@1,300&family=Victor+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Sans:wght@100&family=Lugrasimo&family=Maven+Pro:wght@500;700&family=Parisienne&family=Source+Code+Pro:ital,wght@1,300&family=Victor+Mono:wght@100&display=swap');
+*{
+    margin: 0;  
+    padding: 0px;
+}
+.sidebar{
+    background-color: rgb(216, 204, 204);
+    width: 434px;
+    font-family: 'Dancing Script', cursive;
+    height: 100vh;
+}
+.sidebar nav{
+    padding: 56px;
+     
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 50px;
+    padding-top: 40px;
+    
+}
+.sidebar a{
+    text-decoration: none;
+}
+.main{
+    /*background-color: rgb(132, 168, 237);*/
+    width: 80vw;
+}
+.container{
+    display: flex ;
+}
+.infocontainer{
+    margin: 60px; auto;
+    background-color: rgb(248, 253, 247);
+    height: 77vh;
+    width: 69vw;
+    display: flex;
+    justify-content: space-around;
+}
+.devPic img{
+    width: 719px;
+    height: 77vh;
+    position: absolute;
+    bottom: 127px;
+    right: -16px;
+    flex-direction: column;
+    
+
+}
+.devPic devshape{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    
+
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    
+}
+.hello{
+    font-size: 60px;
+    font-family:     font-family: 'Dancing Script', cursive;
+
+    
+ 
+}
+.name{
+    font-size: 80px;
+    font-weight: bold;]
+    font-family: 'Parisienne', cursive;
+
+
+  
+}
+.about{
+    font-size: 40px;
+    margin-top: 15px;
+    font-family:     font-family: 'Dancing Script', cursive;
+
+    font-family: 'Source Code Pro', monospace;
+}
+.button button{
+    
+    padding: 10px 10px;
+    border-radius: 42px;
+    color: white;
+    background-color: rgb(18, 49, 36);
+    font-size: 22px;
+    margin: 23px 10px;
+    cursor: pointer;
+}
+.button button{
+    
+    
+    
+    
+    animation: jump 1s infinite;
+  }
+  
+  @keyframes jump {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-20px);
+    }
+    60% {
+      transform: translateY(-10px);
+    }
+  }
+
+.button button:hover{
+    color: rgb(7, 5, 5);
+    background-color: rgb(247, 240, 240);
+}
+.contactform{
+    padding-top: 200px;
+    padding: 200px 350px;
+    font-family:     font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    
+
+}
+.contactform h1{
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+}
+.contactform form div{
+    padding: 15px 0;
+}
+.main{
+    padding: 3px;
+}
+.my_intro{
+    margin: 60px; auto;
+    background-color: rgb(248, 253, 247);
+    height: 77vh;
+    width: 69vw;
+    
+    justify-content: space-around;
+    font-size: 29px ;
+    margin-top: 100px;    
+}
+.skillcontainer{
+    padding: 1  px;
+}
+.skillitem{
+    display: flex;
+    align-items: center;
+}
+
+.blogcontainer{
+    margin: 60px; auto;
+    background-color: rgb(248, 253, 247);
+    height: 77vh;
+    width: 69vw;
+    
+    justify-content: space-around;
+    font-size: 29px ;
+    margin-top: 100px; 
+
+}
+.con button{
+    font-size: 28px;
+    border-radius: 15px;
+    color: rgb(218, 221, 233);
+    background-color: rgb(57, 57, 228);
+    
+    cursor: pointer;    
+}
+.con button:hover{
+    color: rgb(5, 5, 7);
+    background-color: rgb(247, 240, 240);
+}
+.skill{
+    width: 280px;
+    height: 10px;
+    background-color: rgb(72, 229, 93);
+    border: solid black;
+}
